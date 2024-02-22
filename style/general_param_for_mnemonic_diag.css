@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* Общие параметры для отображения мнемосхем */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	color: red;
+	text-align: center;
+	margin-bottom: -5px;
+}
+body {
+	background-color: black;
+}
+p {
+	color: white;
+}
+.main {
+	display: inline-block;
+	position: relative;
+}
+span.valblock {
+	display: inline-block;
+	position: absolute;
+	width: auto;
+	border: 1px solid red;
+}
+td.signature {
+	font-size: 12px;
+	font-family: Arial Narrow;
+	font-style: normal;
+	color: #0939a5;
+}
+td.value {
+	text-align: center;
+	width: 51px;
+	height: 18px;
+	border: 1px solid #718669;
+}
+a {
+	font-family: Trebuchet MS, Tahoma, Myriad Pro, Arial, Verdana, sans-serif;
+	font-style: normal;
+	font-size: 17px;
+	color: #1437405e;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	cursor: pointer;
+	color: #436CE2;
+	text-decoration: underline;
+}
+span.valblock.turbine:hover {
+	border: 1px solid red;
+}
+span.valblock.wateranimate:hover {
+	border-radius: 50%;
+	border: 1px solid red;
+}
+td.value[title="Мощность - TgTag_5112"], td.value[title="Мощность - TgTag_2"],
+td.value[title="Мощность - TgTag_5111"], td.value[title="Мощность - SI_G_P"] {
+	border: 3px solid #779012a8;
+}
+td.value > a#TgTag_5112, td.value > a#TgTag_2,
+td.value > a#TgTag_5111, td.value > a#SI_G_P {
+	font-weight: bold;
+}

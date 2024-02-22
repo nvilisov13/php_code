@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Заголовок и начальная инициализация web-интерфейса-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	<meta name="author" content="Вилисов Николай Викторович">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<style>
+		span.valblock {
+			display: inline-block;
+			position: absolute;
+			width: auto;
+			border: 1px solid red;
+		}
+		td.signature {
+			font-size: 12px;
+			font-family: Arial Narrow;
+			font-style: italic;
+			color: orange;
+		}
+		td.value {
+			text-align: center;
+			width: 51px;
+			height: 18px;
+			border: 1px solid black;
+		}
+		a {
+			font-family: Trebuchet MS, Tahoma, Myriad Pro, Arial, Verdana, sans-serif;
+			font-style: oblique;
+			font-size: 16px;
+			color: #15FF57;
+			text-decoration: none;
+		}
+		a:hover {
+			cursor: pointer;
+			color: #436CE2;
+			text-decoration: underline;
+		}
+	</style>
+	<title>Данные с приборов АСКУЭ</title>
+</head>
+<body>
+	<span class="valblock" style="left: 61px; top: 204px">
+		<table>
+			<tr>
+				<td class="signature">G<sub>газа</sub></td>
+				<td class="value" title="">
+					<a href="graph.php?p=" target="_blank" tabindex="1" id="K1Z">N/A</a>
+				</td>
+				<td class="signature">т/ч</td>
+			</tr>
+		</table>
+	</span>
+</body>
+</html>

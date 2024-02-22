@@ -1,0 +1,7 @@
+<Files diagnostik.php>
+	Deny from all
+</Files>
+
+<Files authentification.php>
+	Deny from all
+</Files>

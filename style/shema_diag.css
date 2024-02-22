@@ -1,0 +1,48 @@
+span {
+	position: absolute;
+	background-color: rgba(0, 0, 255, 0.37);
+	/* border: 1px solid #F50602; */
+}
+span.stval_serv {
+	position: absolute;
+	background: rgba(255, 0, 0, 0.37);
+	width: 343px;
+	height: 242px;
+	/* border: 1px solid red; */
+}
+div {
+	display: block;
+	vertical-align: middle;
+	align-content: center;
+}
+div > p {
+	font-family: Trebuchet MS, Tahoma, Myriad Pro, Arial, Verdana, sans-serif;
+	font-style: oblique;
+	font-size: 27px;
+	color: white;
+	font-weight: bold;
+}
+span.stval_serv > div {
+	height: 61px;
+}
+p.t_tab_val {
+	font-size: 14pt;
+}
+span.stval_serv > div.serv_time {
+	font-size: 25px;
+	color: orange;
+}
+button {
+	border: 3px solid #daa;
+	font-size: medium;
+	font-style: oblique;
+	font-weight: bold;
+	color: #e94b4b;
+	height: 46px;
+	width: 118px;
+}
+button:hover {
+	border: 3px dashed #159ce6;
+	font-style: bold;
+	color: #3bde23;
+}
